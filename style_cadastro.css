@@ -1,0 +1,65 @@
+.banner {
+    background-image: url(./images/bg-jelly-fish-para_outras_pags.png);
+    padding: 150px 0;
+    background-size: cover;
+    height: 95vh;
+}
+
+.banner .container {
+    align-items: center;
+    justify-content: center;
+    height: 55%;
+    margin-top: 70px;
+}
+
+.form_box {
+    background-color: #E5E5E5;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_box h2 {
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;    
+}
+
+.input label {
+    color: palevioletred;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.input input {
+    padding: 10px;    
+    border: 2px solid #32B9CD;    
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form_box button {
+    margin-top: 20px;
+    width: 120px;
+    color: #FFFFFF;
+    background-color: #E6005A;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form_box button:hover {
+    opacity: 0.8;
+}
